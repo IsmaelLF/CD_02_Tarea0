@@ -1,1 +1,12 @@
 system.log
+*.log
+?
+# ? sustituye un caracter
+#ignoramos carpetas usando /
+carpeta/
+a[bv]ogado[0-9]
+
+#directorios anidados
+/a/**/z
+/a/c/z
+
